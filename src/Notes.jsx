@@ -21,6 +21,8 @@ function Notes() {
   let [content,setContent]=useState("")
   let handleSave = ()=>{
     dispatch(add(title,content))
+    title,
+    content
   }
   
   return <>
