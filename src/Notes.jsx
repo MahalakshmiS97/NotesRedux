@@ -20,7 +20,7 @@ function Notes() {
   let [title,setTitle]=useState("")
   let [content,setContent]=useState("")
   let handleSave = ()=>{
-    dispatch(add(title,content))
+    dispatch(add({title,content}))
     title,
     content
   }
@@ -57,7 +57,7 @@ function Notes() {
         <p className="card-text">{e.content}</p>
       </div>
       <div className="card-footer">
-        <small className="text-body-secondaryclassName">Last updated 3 mins ago</small>
+        <small className="text-body-secondaryclassName">Last updated few mins ago</small>
       </div>
     </div>
     </div>

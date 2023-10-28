@@ -5,13 +5,18 @@ export const noteSlice = createSlice({
     name: "note",
     initialState:[{
            
-            title: "Sample Note",
-            content: "Sample Notes here"
+            title: "Feedbacks",
+            content: "Lorem ipsum dolor sit amet consectetur. Sollicitudin enim risus ut vestibulum morbi tellus sit ac. Fames auctor quisque et aliquam maecenas sed at vitae facilisis. ."
         },
         {
            
-            title: "Sample Note",
-            content: "Sample Notes here"
+            title: "Weekly Task",
+            content: "Lorem ipsum dolor sit amet consectetur. Sollicitudin enim risus ut vestibulum morbi tellus sit ac. Fames auctor quisque et aliquam maecenas sed at vitae facilisis. ."
+        },
+        {
+           
+            title: "Lyrics",
+            content: "Lorem ipsum dolor sit amet consectetur. Sollicitudin enim risus ut vestibulum morbi tellus sit ac. Fames auctor quisque et aliquam maecenas sed at vitae facilisis. ."
         }
     ],
     reducers:{

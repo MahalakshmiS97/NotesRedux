@@ -27,10 +27,11 @@ const Edit=()=> {
             navigate('/notes')
         }
     },[])
-    const handleEdit=(values,param)=>{
+    const handleEdit=(param,values)=>{
        
-       dispatch(edit({values,param}))
-       
+       dispatch(edit({param,values}))
+       title,
+       content
         navigate('/notes')
     }
     
